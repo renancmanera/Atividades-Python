@@ -1,6 +1,6 @@
-Atividade Python - 2
+#Atividade Python - 2
 
-1)
+#1)
 
 def contador(horas):
     segundos = horas * 3600
@@ -12,14 +12,14 @@ def contador(horas):
 
 print(contador(42))
 
-2)
+#2)
 
 def montante(capital_inicial, juros_por_ano, periodo_em_ano):
     montante = capital_inicial * (1 + juros_por_ano) * periodo_em_ano
     return montante
 print(montante(100,12,1))
 
-3)
+#3)
 
 def cambio(real):
     dolar = real / 5.1
@@ -27,7 +27,7 @@ def cambio(real):
 
 print(cambio(1200))
 
-4)
+#4)
 
 def primos(x, y):
     primos = []
