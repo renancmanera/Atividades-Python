@@ -1,18 +1,18 @@
-Atividade Python - 1
+#Atividade Python - 1
 
-1)
+#1)
 
 def funcao(nome):
     return(f'Saudações {nome}')
 print(funcao('Renan'))
 
-2)
+#2)
 
 def operacoes(x,y):
     return(x+y, x-y,x*y, x/y)
 print(operacoes(1,2))
 
-3)
+#3)
 
 def faixa_etaria(idade):
     if 0 < idade <= 12:
@@ -27,7 +27,7 @@ def faixa_etaria(idade):
         return('Inválido')
 print(faixa_etaria(20))
 
-4)
+#4)
 
 #F = C x 1,8 + 32
 
@@ -36,7 +36,7 @@ def formula(celsius):
     return(farenheit)
 print(formula(30))
 
-5)
+#5)
 
 #A regra básica é que um ano é bissexto se for divisível por 4. 
 #No entanto, existem algumas exceções a essa regra. 
@@ -55,7 +55,7 @@ def ano_bissexto(ano):
          return False
 print(ano_bissexto(2004))
 
-6)
+#6)
 
 def calculadora_imc(altura,peso):
     imc = peso / altura**2
@@ -69,7 +69,7 @@ def calculadora_imc(altura,peso):
         return(f'Obesidade. IMC = {imc:.2f}')
 print(calculadora_imc(1.82,79))
 
-7)
+#7)
 
 import random
 import string
@@ -79,7 +79,7 @@ def gerarSenha(tamanho):
     return senha
 print(gerarSenha(10))
 
-8)
+#8)
 
 import string
 def verif_palind(palavra):
@@ -87,7 +87,7 @@ def verif_palind(palavra):
     return palavra == palavra[::-1]
 print(verif_palind('a mae te ama'))
 
-9)
+#9)
 
 import random
 
@@ -108,7 +108,7 @@ def acerteNumero():
 
 acerteNumero()
 
-10)
+#10)
 
 def triangulo(a,b,c):
     if a == b == c:
